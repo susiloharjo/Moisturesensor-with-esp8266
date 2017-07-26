@@ -142,7 +142,7 @@ void loop() {
       //analogWrite(redPin, 1000);
       //analogWrite(greenPin, 0);
       //analogWrite(bluePin, 0);
-      Serial.println("Dry");
+      Serial.println("Kering");
 
     } else if (chartValue > 25 && chartValue <= 75) // 26-75 is green
     {
@@ -150,7 +150,7 @@ void loop() {
       //analogWrite(redPin, 0);
       //analogWrite(greenPin, 1000);
       //analogWrite(bluePin, 0);
-      Serial.println("Baal");
+      Serial.println("Setengah kering");
     }
     else if (chartValue > 75 ) // 76-100 is blue
     {
